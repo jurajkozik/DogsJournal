@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "dogTraining",
+    "slug": "dogTraining",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCalendarsUsageDescription": "The app needs to access your calendar.",
+        "NSRemindersUsageDescription": "Allow $(PRODUCT_NAME) to access your reminders",
+        "NSCalendarsFullAccessUsageDescription": "The app needs to access your calendar.",
+        "NSRemindersFullAccessUsageDescription": "Allow $(PRODUCT_NAME) to access your reminders",
+        "CFBundleURLTypes": [
+          {
+            "CFBundleURLSchemes": [
+              "com.googleusercontent.apps.1006984340648-8q8u92vd7nitvv36dmntb765hvtnhmnf"
+            ]
+          }
+        ]
+      },
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "cover"
+      },
+      "bundleIdentifier": "com.jurajk05.dogTraining",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "splash": {
+        "hdpi": "./assets/android/mipmap-hdpi/ic_launcher.png",
+        "mdpi": "./assets/android/mipmap-mdpi/ic_launcher.png",
+        "xhdpi": "./assets/android/mipmap-xhdpi/ic_launcher.png",
+        "xxhdpi": "./assets/android/mipmap-xxhdpi/ic_launcher.png",
+        "xxxhdpi": "./assets/android/mipmap-xxxhdpi/ic_launcher.png",
+        "resizeMode": "cover"
+      },
+      "permissions": [
+        "android.permission.READ_CALENDAR",
+        "android.permission.WRITE_CALENDAR"
+      ],
+      "package": "com.jurajk05.dogTraining"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-calendar",
+        {
+          "calendarPermission": "The app needs to access your calendar."
+        }
+      ],
+      "expo-build-properties"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "22a1df69-b7a9-4e0b-85af-85e2897e24fb"
+      }
+    }
+  }
+}

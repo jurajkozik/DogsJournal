@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1006984340648",
+    "project_id": "dogtrainingapp-6370e",
+    "storage_bucket": "dogtrainingapp-6370e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006984340648:android:b8db70f5138d9283694e9d",
+        "android_client_info": {
+          "package_name": "com.jurajk05.dogTraining"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006984340648-va6682k1ai7ajhethc47l3fjah4l0ker.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jurajk05.dogTraining",
+            "certificate_hash": "f9477a0fc5ada8aa9906132dddb7d91f9f3f936c"
+          }
+        },
+        {
+          "client_id": "1006984340648-vs9huss8bo66cpmmbpdssmh9m658nmob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJr4Z1pIwedtaRn9nLIi-s22sKSZmR_oA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006984340648-a8vh9ph9fb7vano4g9su16fmqv8dhhj6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1006984340648-8q8u92vd7nitvv36dmntb765hvtnhmnf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jurajk05.dogTraining"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

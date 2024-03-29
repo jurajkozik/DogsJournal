@@ -1,1 +1,1 @@
-# dogAppDp
+# DogsJournal
